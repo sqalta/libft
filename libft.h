@@ -6,7 +6,7 @@
 /*   By: spalta <spalta@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/07 19:49:02 by spalta            #+#    #+#             */
-/*   Updated: 2022/12/15 14:03:56 by spalta           ###   ########.fr       */
+/*   Updated: 2022/12/20 13:50:17 by spalta           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,7 @@
 # define LIBFT_H
 
 # include <unistd.h>
-# include <stdio.h>
 # include <stdlib.h>
-# include <string.h>
 
 typedef struct s_list
 {
@@ -113,4 +111,4 @@ t_list				*ft_lstmap(t_list *lst, void *(*f)(void *),
 						void (*del)(void *));
 
 void				ft_lstadd_back(t_list **lst, t_list *new);
-#endif 
+#endif
